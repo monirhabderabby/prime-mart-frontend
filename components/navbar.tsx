@@ -1,10 +1,16 @@
 import Link from "next/link";
 
 // components
+import getCategories from "@/actions/get-categories";
 import MainNav from "@/components/main-nav";
+import NavbarActions from "@/components/navbar-actions";
 import Container from "@/components/ui/container";
 
-const Navbar = () => {
+export const revalidate = 0;
+
+const Navbar = async () => {
+    const categories = await getCategories();
+
     return (
         <div className="border-b">
             <Container>
@@ -12,7 +18,8 @@ const Navbar = () => {
                     <Link href={"/"} className="ml-4 flex lg:ml-0 gap-x-2">
                         <p className="font-bold text-xl">Prime Mart</p>
                     </Link>
-                    <MainNav data={[]} />
+                    <MainNav data={categories} />
+                    <NavbarActions />
                 </div>
             </Container>
         </div>
