@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prime Mart - Ecommerce Store
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Welcome to Prime Mart, an ecommerce store developed by a group of friends passionate about creating a seamless online shopping experience. This project is built using Next.js, Tailwind CSS, Prisma, MongoDB, and Shadcn for a modern and efficient ecommerce platform.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Stripe Payment Integration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prime Mart offers a secure and convenient way for customers to make purchases through Stripe payment integration. This ensures a smooth and reliable transaction process, giving users confidence in their online shopping experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 2. Clerk Authentication
 
-## Learn More
+To provide a personalized and secure experience, Prime Mart employs Clerk authentication. This allows users to create accounts, log in securely, and manage their profiles. Clerk authentication enhances the overall security of the ecommerce platform and enables features like order tracking and personalized recommendations.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Product Buying
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Prime Mart simplifies the buying process, allowing users to add products to their cart and complete purchases seamlessly. The integration of Stripe ensures secure and efficient transactions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 4. Product Filtering
 
-## Deploy on Vercel
+Enhancing user experience, Prime Mart features robust product filtering capabilities. Customers can easily find desired products through various filters, such as category, price range, and brand. This functionality streamlines the search process, making it convenient for users to discover products that meet their preferences.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: A React framework for building efficient and scalable web applications.
+- **Tailwind CSS**: A utility-first CSS framework that makes it easy to create responsive and visually appealing designs.
+- **Prisma**: A modern database toolkit for Node.js and TypeScript that simplifies database access and management.
+- **MongoDB**: A NoSQL database that provides flexibility and scalability for storing and retrieving product and user data efficiently.
+- **Shadcn**: [Note: Please provide more information about Shadcn as it is not a well-known technology as of my last update in January 2022. If it's a custom library or tool, provide details on its purpose and usage.]
